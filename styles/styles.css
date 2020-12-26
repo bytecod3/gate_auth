@@ -1,0 +1,88 @@
+*{
+    font-family: Ubuntu;
+    box-sizing: border-box;
+
+}
+
+.container{
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 40px;
+    background: #EDF2EF;
+    margin-top: 10%;
+    box-shadow: 5px 5px 50px -10px black ;
+    border-radius: 10px;
+}
+
+.container a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius:5%;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    transition: 0.5s ease-in-out;
+    margin: auto;
+    width: 100px;
+    border: 1px solid lightgrey;
+
+}
+
+.container a:hover{
+    border: 1px solid grey;
+}
+
+.form-container input{
+    padding: 5px;
+    margin: 3px;
+}
+
+.form-container input[type="submit"]{
+    color: #B80D57;
+    font-weight: bold;
+}
+
+.form-container input[type="submit"]:hover{
+    color: #F8615A;
+}
+
+.success, .members, .booking{
+    color: green;
+    font-weight: bold;
+    margin: auto;
+    max-width: 500px;
+    text-align: center;
+    padding: 40px;
+    background: #EDF2EF;
+    margin-top: 10%;
+    box-shadow: 5px 5px 50px -10px black ;
+    border-radius: 10px;
+}
+
+.members, .booking{
+    color: #F8615A;
+}
+
+.back{
+    color: #B80D57;
+}
+
+.back a{
+    text-decoration: underline;
+}
+
+.back a:hover{
+    opacity: 0.8;
+}
+
+
+.failed {
+    color: red;
+    font-weight: bold;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: -100px;
+}
+

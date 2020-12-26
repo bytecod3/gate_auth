@@ -6,7 +6,7 @@ The code uses PHP to implement a gate-like-logic authentication. No framework.
 >to the page they intended.   
 In the *core.php*, the login() function uses session IDs to check for this condition
 
-####Usage
+##Usage
 >1. Create a new service page and place it in the pages directory or an appropriate directory acoording to your project's structure.    
 >2. Append the link to the service page in the *index.php* and add an id to the link
 >e.g. <a href="service.php?id=20"
